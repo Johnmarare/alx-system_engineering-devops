@@ -7,3 +7,4 @@ lists files and hidden files in long format and displays user and group id
 creates a directory my_first_directory in the /tmp directory
 moves file from tmp/ to my_first_directory
 Deletes file
+deletes directory and files
