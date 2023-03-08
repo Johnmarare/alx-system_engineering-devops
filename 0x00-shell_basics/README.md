@@ -11,3 +11,4 @@ deletes directory and files
 changes working directory to the previous one
 lists all files and hidden files in the listed directories
 file type
+creates symbolic or soft links
