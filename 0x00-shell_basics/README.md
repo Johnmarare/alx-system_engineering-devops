@@ -16,3 +16,4 @@ copying using wildcards
 moving files using wildcards
 clean Emacs
 flag -p in mkdir command and its usage
+listing of files- shows use of different ls flags
