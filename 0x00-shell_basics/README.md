@@ -14,3 +14,4 @@ file type
 creates symbolic or soft links
 copying using wildcards
 moving files using wildcards
+clean Emacs
