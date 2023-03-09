@@ -19,3 +19,4 @@ flag -p in mkdir command and its usage
 listing of files- shows use of different ls flags
 magic file
 switches current user to a diffrent user called betty
+prints effective username of the current user
