@@ -12,3 +12,4 @@ mirror permissions
 permissions andwildcards
 mkdir m flag used like chmod command
 changes group owner for file
+chown command
