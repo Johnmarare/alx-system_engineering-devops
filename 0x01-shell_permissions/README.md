@@ -10,3 +10,4 @@ sets permissions
 file list
 mirror permissions
 permissions andwildcards
+mkdir m flag used like chmod command
