@@ -9,3 +9,4 @@ adds execution permission to ugo
 sets permissions
 file list
 mirror permissions
+permissions andwildcards
