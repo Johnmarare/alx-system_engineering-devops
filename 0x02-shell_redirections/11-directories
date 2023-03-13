@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la|wc -l
+print . -type d -print|wc -l
