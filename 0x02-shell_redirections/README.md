@@ -4,3 +4,4 @@ Displays contents of file
 Tail command
 first five words
 display specific line in afile
+file plus contents
