@@ -13,3 +13,4 @@ counting directories
 Newest files
 Being unique
 command grep
+grep+wc
