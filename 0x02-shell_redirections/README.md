@@ -5,3 +5,4 @@ Tail command
 first five words
 display specific line in afile
 file plus contents
+duplicate last line

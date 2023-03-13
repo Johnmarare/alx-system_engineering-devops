@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq iacta|tail -n 0
+cp iacta|tail -n 1
