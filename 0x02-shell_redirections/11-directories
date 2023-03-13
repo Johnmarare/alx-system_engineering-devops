@@ -1,2 +1,2 @@
 #!/bin/bash
-print . -type d -print|wc -l
+print mindepth 1 -type d -print|wc -l
