@@ -15,3 +15,4 @@ Being unique
 command grep
 grep+wc
 grep and its flags
+invert patterns
