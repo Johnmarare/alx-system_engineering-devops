@@ -11,3 +11,4 @@ arithmetic operations on env var
 exponential
 converting from base2 to base10
 combination
+floats
