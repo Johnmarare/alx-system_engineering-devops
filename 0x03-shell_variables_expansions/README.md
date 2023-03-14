@@ -8,3 +8,4 @@ creating local variable
 create global variable
 arithmetic operations using variables
 arithmetic operations on env var
+exponential
