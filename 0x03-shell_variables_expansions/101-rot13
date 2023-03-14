@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'a-zA-Z' 'a-mn-zA-MN-Z'
+tr 'n-zN-M' 'n-za-mN-ZA-M'
