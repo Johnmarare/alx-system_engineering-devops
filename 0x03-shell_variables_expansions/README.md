@@ -5,3 +5,4 @@ counts no of directories in path
 prints global variables
 local variable + global variable + functions
 creating local variable
+create global variable
