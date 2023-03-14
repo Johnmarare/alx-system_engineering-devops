@@ -21,3 +21,4 @@ The tr command
 Tr in deleting
 reverse input
 empty files
+gifs
