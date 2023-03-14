@@ -6,3 +6,4 @@ prints global variables
 local variable + global variable + functions
 creating local variable
 create global variable
+arithmetic operations using variables
