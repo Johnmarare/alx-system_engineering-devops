@@ -18,3 +18,4 @@ grep and its flags
 invert patterns
 display all lines of file starting with a file
 The tr command
+Tr in deleting
