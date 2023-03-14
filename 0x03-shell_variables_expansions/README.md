@@ -9,3 +9,4 @@ create global variable
 arithmetic operations using variables
 arithmetic operations on env var
 exponential
+converting from base2 to base10
