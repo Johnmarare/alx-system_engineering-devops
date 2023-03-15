@@ -15,3 +15,4 @@ floats
 decimal to hexadecimal
 rot13
 ödd number
+binary and variables
