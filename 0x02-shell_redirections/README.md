@@ -23,3 +23,4 @@ reverse input
 empty files
 gifs
 biggest fan
+displays all users
