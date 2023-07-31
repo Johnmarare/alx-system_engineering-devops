@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script that displays a list of currently running processes.
+# ps lists all process and their details
+# auxf lists process with all users in ascii art rep in process hierarchy
+ps auxf
