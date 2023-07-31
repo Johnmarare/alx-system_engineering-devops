@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# pkill terminates process based on their names and other attributes
+# -f  allows it to match against the entire command line of processes
+# 7-highlander is string pattern that pkill uses to search for process
+pkill  -f 7-highlander
