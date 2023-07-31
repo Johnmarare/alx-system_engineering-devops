@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# use kill command to stop a process
+# kill command will terminate the process
+# pgrep searches for processes whose command line contains 
+# the string "4-to_infinity_and_beyond".
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
