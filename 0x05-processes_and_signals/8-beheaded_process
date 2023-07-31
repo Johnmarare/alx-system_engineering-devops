@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# use kill command to stop a process
+# pkill  search and send signals to processes based on their names
+# SIGKILL specifies the signal to be sent to the matched processes
+# the string "7-highlander".
+pkill  -SIGKILL -f  "7-highlander"
