@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/h\w{1}t\w{2,5}/).join
+puts ARGV[0].scan(/h{1}b{1}t{2,5}n{1}/).join
