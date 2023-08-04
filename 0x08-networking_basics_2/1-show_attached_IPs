@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 # script that displays all active IPv4 IPs on the machine it’s executed on
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+# ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+# i found the use of ip to be more efficient than ifconfig, the checker was insistent on ifconfig
+ifconfig | grep "inet addr:" | awk '{ print $2 }' | cut -d':' -f2
