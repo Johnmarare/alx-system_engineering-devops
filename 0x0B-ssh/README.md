@@ -4,3 +4,5 @@ SSH
 Network
 SysAdmin
 Security
+Client configuration
+
