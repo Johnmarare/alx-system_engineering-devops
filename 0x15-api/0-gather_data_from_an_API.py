@@ -2,8 +2,8 @@
 """
 Gather data from an api
 """
-from sys import argv
 import requests
+from sys import argv
 
 if __name__ == '__main__':
     emp_id = argv[1]
