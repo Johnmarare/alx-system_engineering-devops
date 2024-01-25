@@ -6,8 +6,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """
-    sureddit: to be queried
+    """sureddit: to be queried
     Return: Number of subs
     """
     if subreddit is None:
