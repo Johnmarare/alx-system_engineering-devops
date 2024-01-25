@@ -11,7 +11,7 @@ def number_of_subscribers(subreddit):
     """
     if subreddit is None:
         return (0)
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/John_Marare)"
     }
