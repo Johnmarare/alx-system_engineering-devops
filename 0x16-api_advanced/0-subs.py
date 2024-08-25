@@ -1,22 +1,23 @@
 #!/usr/bin/python3
 """
-queries reddit api to return number of subs for a given subredit
+Module Docs
 """
 import requests
 
 
 def number_of_subscribers(subreddit):
-    """sureddit: to be queried
-    Return: Number of subs
     """
-    if subreddit is None:
-        return (0)
-    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    headers = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/John_Marare)"
+    Function Docs
+    """
+    url = 'https://www.reddit.com'
+    header = {
+        'Accept': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
     }
-    response = requests.get(url, headers=headers, allow_redirects=False)
-    results = response.json()
-    subs = results.get("data", {}).get("subscribers", 0)
-
-    return subs
+    response = requests.get('{}/r/{}/about/.json'.format(url, subreddit),
+                            headers=header,
+                            allow_redirects=False
+                            )
+    if response.status_code == 200:
+        return response.json()['data']['subscribers']
+    return 0
